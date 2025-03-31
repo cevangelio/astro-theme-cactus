@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 
-export default {
+const config: Config = {
 	plugins: [require("@tailwindcss/typography")],
 	theme: {
 		extend: {
@@ -15,7 +15,7 @@ export default {
 			fontFamily: {
 				sans: ["'Inter'", ...fontFamily.sans],
 			},
-			typography: () => ({
+			typography: {
 				DEFAULT: {
 					css: {
 						a: {
@@ -61,7 +61,6 @@ export default {
 								},
 							},
 						},
-						/* Table */
 						"tbody tr": {
 							borderBottomWidth: "none",
 						},
@@ -76,13 +75,13 @@ export default {
 							fontWeight: "700",
 						},
 						'th[align="center"], td[align="center"]': {
-							"text-align": "center",
+							textAlign: "center",
 						},
 						'th[align="right"], td[align="right"]': {
-							"text-align": "right",
+							textAlign: "right",
 						},
 						'th[align="left"], td[align="left"]': {
-							"text-align": "left",
+							textAlign: "left",
 						},
 					},
 				},
@@ -94,7 +93,9 @@ export default {
 						},
 					},
 				},
-			}),
+			},
 		},
 	},
-} satisfies Config;
+};
+
+export default config;
