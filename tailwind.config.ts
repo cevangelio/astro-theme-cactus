@@ -1,9 +1,20 @@
 import type { Config } from "tailwindcss";
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
 	plugins: [require("@tailwindcss/typography")],
 	theme: {
 		extend: {
+			colors: {
+				primary: {
+					DEFAULT: "#ec4899", // pink-500
+					dark: "#db2777",    // pink-600
+					light: "#f9a8d4",   // pink-300
+				},
+			},
+			fontFamily: {
+				sans: ["'Inter'", ...fontFamily.sans],
+			},
 			typography: () => ({
 				DEFAULT: {
 					css: {
