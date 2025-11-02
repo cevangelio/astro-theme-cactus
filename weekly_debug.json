@@ -1,0 +1,25 @@
+{
+  "end_date_used": "2025-11-01",
+  "latest_row_upto_today": "2025-11-01",
+  "glidepath_inputs": {
+    "etf_start": 211275.0,
+    "eoy_goal": 387977.0,
+    "rsu_sales_plan": 0.0,
+    "srs_contrib_plan": 35000.0,
+    "weights": {
+      "4": 0.5,
+      "10": 0.5
+    }
+  },
+  "target_today_raw": 359414.2109589041,
+  "actual_value_raw": 417827.04144629807,
+  "etf_ytd_dietz": -25.158706387413993,
+  "etf_mtd_dietz": 0.0,
+  "srs_ytd_dietz": 4.5698907256577215,
+  "srs_mtd_dietz": -0.1298363184693773,
+  "rsu_ytd_dietz": -64.98797642450248,
+  "rsu_mtd_dietz": 0.0,
+  "rsu_redeploy_ytd_val": 191103.29542912,
+  "rsu_redeploy_month_val": 0.0,
+  "weekly_change_mode": "inweek"
+}

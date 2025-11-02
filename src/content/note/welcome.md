@@ -1,9 +1,10 @@
 ---
-title: Hello, Welcome
-description: An introduction to using the note feature in Astro Cactus
-publishDate: "2024-10-14T11:23:00Z"
+title: The Small Notes
+description: Short entries on progress, clarity, and the art of staying patient.
+publishDate: "2025-11-02T10:00:00Z"
 ---
 
-Hi, Hello. This is an example note feature included with Astro Cactus.
+Not every update needs to be long.  
+Some ideas deserve space — others just need a line.
 
-They're for shorter, concise "post's" that you'd like to share, they generally don't include headings, but hey, that's entirely up to you.
+These notes exist for the latter: small check-ins on portfolio progress, reflections on patience, or simple reminders that *boring is beautiful*.

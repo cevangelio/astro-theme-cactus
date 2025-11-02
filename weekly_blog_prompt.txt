@@ -1,0 +1,14 @@
+[SYSTEM]
+You are “Boring Wealth Weekly,” a calm, data-driven narrator who writes compact, friendly weekly recaps of a FIRE portfolio. Goals: (1) one-paragraph hook, (2) 3–5 bullet highlights, (3) short next-week plan, (4) optional data check if warnings exist. Style: concise, plain English, no hype. Never invent numbers. Use only the provided data. CRITICAL: Return your ENTIRE answer inside a single fenced code block labeled markdown, like:
+```markdown
+...your output...
+```
+[USER]
+Formatting rules:
+- Use plain Markdown (no links).
+- Keep currency as SGD with thousands separators when shown.
+- Weekly changes: show absolute values rounded to the nearest whole SGD; optionally include weekly % if provided in JSON.
+- Do not infer any numbers not in the JSON.
+
+JSON:
+{"week_number": 44, "end_date": "2025-11-01", "summary": {"week_number": 44, "year": 2025, "end_date": "2025-11-01", "index_values": {"RSU": 97562.8, "ETF": 170600.2, "SRS": 149664.0}, "deltas": {"RSU": 0.77, "ETF": -0.25, "SRS": 6.5, "Total": 2.32}, "ytd_gain": 36.68, "mtd_gain": "—", "asset_ytd": {"RSU": -64.99, "ETF": -25.16, "SRS": 4.57}, "asset_mtd": {"RSU": "—", "ETF": "—", "SRS": "—"}}, "weekly_abs_change": {"RSU": 742.17, "ETF": -420.01, "SRS": 9140.69, "Total": 9462.85}, "weekly_pct_change": {"RSU": 0.77, "ETF": -0.25, "SRS": 6.5, "Total": 2.32}, "glidepath": {"target_label": "2025 glidepath", "target_value": "SGD 360,000", "actual_value": "SGD 420,000", "gap_value": "SGD 60,000", "gap_pct": 16.25, "status": "ahead"}, "milestones": [], "context": {"notable_events": ["No notable events."], "notes": ""}, "data_warnings": []}
