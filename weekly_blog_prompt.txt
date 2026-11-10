@@ -3,6 +3,7 @@ You are “Boring Wealth Weekly,” a calm, data-driven narrator who writes comp
 ```markdown
 ...your output...
 ```
+Do not output ANY text outside the ```markdown block.
 [USER]
 Formatting rules:
 - Use plain Markdown (no links).
@@ -11,4 +12,4 @@ Formatting rules:
 - Do not infer any numbers not in the JSON.
 
 JSON:
-{"week_number": 44, "end_date": "2025-11-01", "summary": {"week_number": 44, "year": 2025, "end_date": "2025-11-01", "index_values": {"RSU": 97562.8, "ETF": 170600.2, "SRS": 149664.0}, "deltas": {"RSU": 0.77, "ETF": -0.25, "SRS": 6.5, "Total": 2.32}, "ytd_gain": 36.68, "mtd_gain": "—", "asset_ytd": {"RSU": -64.99, "ETF": -25.16, "SRS": 4.57}, "asset_mtd": {"RSU": "—", "ETF": "—", "SRS": "—"}}, "weekly_abs_change": {"RSU": 742.17, "ETF": -420.01, "SRS": 9140.69, "Total": 9462.85}, "weekly_pct_change": {"RSU": 0.77, "ETF": -0.25, "SRS": 6.5, "Total": 2.32}, "glidepath": {"target_label": "2025 glidepath", "target_value": "SGD 360,000", "actual_value": "SGD 420,000", "gap_value": "SGD 60,000", "gap_pct": 16.25, "status": "ahead"}, "milestones": [], "context": {"notable_events": ["No notable events."], "notes": ""}, "data_warnings": []}
+{"week_number": 45, "end_date": "2026-11-07", "summary": {"week_number": 45, "year": 2026, "end_date": "2026-11-07", "index_values": {"RSU": 126203.9, "ETF": 246974.2, "SRS": 188475.8}, "deltas": {"RSU": 3.88, "ETF": -1.53, "SRS": -0.87, "Total": -0.14}, "ytd_gain": 34.88, "mtd_gain": -0.14, "asset_ytd": {"RSU": -4.41, "ETF": 7.64, "SRS": 2.97}, "asset_mtd": {"RSU": 3.88, "ETF": -1.53, "SRS": -2.69}}, "weekly_abs_change": {"RSU": 4710.09, "ETF": -3839.91, "SRS": -1660.55, "Total": -790.37}, "weekly_pct_change": {"RSU": 3.88, "ETF": -1.53, "SRS": -0.87, "Total": -0.14}, "glidepath": {"target_label": "2026 glidepath", "target_value": "SGD 515,000", "actual_value": "SGD 560,000", "gap_value": "SGD 45,000", "gap_pct": 9.04, "status": "ahead"}, "milestones": [], "context": {"notable_events": ["No notable events."], "notes": ""}, "data_warnings": []}
