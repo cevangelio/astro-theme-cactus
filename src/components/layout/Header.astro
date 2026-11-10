@@ -1,15 +1,14 @@
 ---
 import Search from "@/components/Search.astro";
 import ThemeToggle from "@/components/ThemeToggle.astro";
-import { menuLinks } from "@/site.config";
-import {siteConfig} from "../../site.config";
+import { menuLinks, siteConfig } from "@/site.config";
 ---
 
 <header class="group relative mb-28 flex items-center sm:ps-18" id="main-header">
 	<div class="flex sm:flex-col">
 		<a
 			aria-current={Astro.url.pathname === "/" ? "page" : false}
-			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+			class="inline-flex items-center sm:relative sm:inline-block"
 			href="/"
 		>
 			<svg
